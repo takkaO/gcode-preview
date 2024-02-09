@@ -12,6 +12,9 @@ class GridHelper extends LineSegments {
     color1 = new Color(color1);
     color2 = new Color(color2);
 
+    sizeX = Math.abs(sizeX);
+    sizeZ = Math.abs(sizeZ);
+
     const x = Math.round(sizeX / stepX);
     const y = Math.round(sizeZ / stepZ);
 
